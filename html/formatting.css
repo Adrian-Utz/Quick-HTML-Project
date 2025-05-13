@@ -1,0 +1,53 @@
+body {background-color: black; color:white; }
+
+img.bannerimage {width: 10em;}
+
+h1.bannertext {font-size: 4em; position:relative;left: 200px; bottom: 150px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+h2.sub-banner-text {font-size: 2em; position: relative; left:200px; bottom: 125px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+nav a {padding:2em; position:relative; left:350px; text-decoration: none; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+nav a:hover {color:red;}
+
+h2 a {text-decoration:none; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+main {text-align: center;}
+
+nav.about {padding:2em; position:relative; right:150px; text-decoration: none; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+h2 a:hover {color:red;}
+
+div.topnav{position:relative;left:1000px; bottom: 350px;}
+
+@media only screen and (max-width:700px)
+    {body {background-color:black;color:white;}
+
+    img.bannerimage {width:6em;}
+
+    h1.bannertext {font-size: 2em;position: relative;left:100px;bottom:100px;}
+
+    h2.sub-banner-text {font-size: 1em; position:relative;left:100px; bottom:100px;}
+
+    nav a {position:relative; left:130px; font-size: 10px;}
+
+    main img {width:25em;}
+
+    nav.about {right:50px; font-size:15px;}
+
+    div.topnav{position:relative;width:4em;bottom:150px; left:450px}
+    }
+
+@media screen and (max-width:500px)
+    {body{background-color:black;color:white}
+    
+    img.bannerimage{width:4em}
+
+    h1.bannertext{bottom:70px}
+
+    h2.sub-banner-text{bottom: 65px}
+
+    nav a {left:30px}
+
+    div.topnav{left:140px; bottom:10px;}
+    }
